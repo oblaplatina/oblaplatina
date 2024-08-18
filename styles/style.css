@@ -1,0 +1,44 @@
+html {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #FFFFFF
+  }
+  body {
+    width: 1140px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 20px 20px 20px 20px;
+  }
+h1 {
+    margin: 0;
+    padding: 40px 0;
+    font-size: 60px;
+    text-align: center;
+}
+img{
+    display:block;
+    margin: 0 auto;
+    width: 1140;
+    height: 400;
+}
+h3 {
+    margin: 50px 30px 5px;
+    text-align: center;
+}
+  p,
+  li {
+    color: black;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin: 0 30px;
+}
+.colortext {
+    color: #8CC5F9;
+    font-size: 32px;
+    line-height: 1;
+    text-align: center;
+}
