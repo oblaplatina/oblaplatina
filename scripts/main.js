@@ -1,10 +1,10 @@
 let myImage = document.querySelector("img");
-myImage.onclick =  function refreshLo () {
+myImage.onclick =  function toggleImage () {
     let mySrc = myImage.getAttribute("src");
 if (mySrc === "images/logo.png") {
 myImage.setAttribute("src", "images/kita.png");
 } else {
-    myImage.setAttribute("src", "images/kita.png");
+    myImage.setAttribute("src", "images/logo.png");
 }
 }
 
